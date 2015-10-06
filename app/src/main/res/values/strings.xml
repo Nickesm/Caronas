@@ -14,6 +14,9 @@
     <string name="title_activity_buscar">BuscarActivity</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_oferecer">OferecerActivity</string>
+    <string name="title_activity_oferecer">Oferecer Carona</string>
+
     <string name="title_activity_sobre">SobreActivity</string>
+
+
 </resources>

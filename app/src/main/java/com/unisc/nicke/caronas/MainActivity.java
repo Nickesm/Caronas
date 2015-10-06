@@ -6,6 +6,7 @@ import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -145,4 +146,15 @@ public class MainActivity extends Activity
         }
     }
 
+    public void showAbout(View view) {
+        startActivity(new Intent(this, SobreActivity.class));
+    }
+
+    public void showPost(View view) {
+        startActivity(new Intent(this, OferecerActivity.class));
+    }
+
+    public void showFind(View view) {
+        startActivity(new Intent(this, BuscarActivity.class));
+    }
 }
